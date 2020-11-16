@@ -13,10 +13,10 @@ import com.example.demo.modelo.Venta;
 import com.example.demo.modelo.Ticket;
 
 @Controller
-@RequestMapping("ExamenUnidad2")
+@RequestMapping("/ExamenUnidad2")
 public class Controlador {
 
-	@GetMapping("index")
+	@GetMapping("/")
 	public String index(){
 		return "index";
 		
